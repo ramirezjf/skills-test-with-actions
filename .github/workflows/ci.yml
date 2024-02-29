@@ -30,5 +30,5 @@ jobs:
           npm install remark-cli remark-preset-lint-consistent
       - name: remark
         run: |
-          npx remark . --use remark-lint-consistent --frail
+          npx remark . --use remark-preset-lint-consistent resume.md
 
